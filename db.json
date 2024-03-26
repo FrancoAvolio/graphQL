@@ -1,0 +1,32 @@
+{
+  "persons": [
+    {
+      "id": 1,
+      "nombre": "Juancito",
+      "apellido": "Perez",
+      "edad": 20,
+      "profesion": "Desarrollador"
+    },
+    {
+      "id": 2,
+      "nombre": "Mariana",
+      "apellido": "Gomez",
+      "edad": 25,
+      "profesion": "Contadora"
+    },
+    {
+      "id": 3,
+      "nombre": "Pedro",
+      "apellido": "Fernandez",
+      "edad": 30,
+      "profesion": "Dise\u00f1ador"
+    },
+    {
+      "id": 4,
+      "nombre": "Ana",
+      "apellido": "Martinez",
+      "edad": 35,
+      "profesion": "Arquitecta"
+    }
+  ]
+}
