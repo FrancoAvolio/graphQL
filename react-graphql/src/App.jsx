@@ -2,8 +2,9 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import { gql, useQuery } from "@apollo/client";
 import Persons from "./Persons";
+import PersonForm from "./PersonForm";
 
-const ALL_PERSONS = gql`
+export const ALL_PERSONS = gql`
   query {
     allPersons {
       id
@@ -28,6 +29,7 @@ function App() {
           <Persons persons={data?.allPersons} />
         </div>
       )}
+      <PersonForm />
     </div>
   );
 }
